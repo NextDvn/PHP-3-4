@@ -1,0 +1,17 @@
+<?php
+    session_start();
+    include("function.php");
+    echo check_login();
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praktik login session</title>
+    </head>
+    <body>
+        <h1>Selamat Datang!</h1>
+        <h3><a href="profil.php">Edit Profil</a></h3>
+        <h3><a href="login.php">Logout!</a></h3>
+    </body>
+</html>
